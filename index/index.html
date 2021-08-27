@@ -1,0 +1,661 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="index.css">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+        
+
+    <div class="mainContainer">
+
+        <!-- nav Start -->
+        <div class="navigationBar">
+            <nav>
+                <div class="navTop">
+                    <a href="index.html" id="homePageNavigation"></i><i class="fas fa-home"></i></a>
+                    <ul class="navTopLists" >
+                        <li class="navTopListsLi">
+                            <i class="fas fa-circle"></i>
+                            <i class="fas fa-phone-alt"></i>
+                              orders 0800 731 1256 
+                        </li>
+                        <li class="navTopListsLi">
+                        <i class="fas fa-circle"></i>
+                        <i class="fas fa-envelope"></i>
+                           Email us
+                       </li>
+                       <li class="navTopListsLi"> <i class="fas fa-circle"></i>
+                        Subscribe to our news letter
+                    </li>
+                    <li  class="navTopListsLi">
+                        <input type="text" placeholder="Email Address">
+                        <button><i class="fas fa-envelope"></i></button>
+                    </li>
+                    </ul>
+                    <ul   class="navTopLists navTopListsLiRight">
+                        <li  class="navTopListsLi">
+                            <i class="fas fa-shopping-cart"></i>
+                            basket : (empty)
+                        </li>
+                        <li class="navTopListsLi"><a href="../login/login.html">Login</a></li>
+                        <li  class="navTopListsLi"><a href="../signup/signup.html">Register</a></li>
+                    </ul>
+                </div>
+                    <hr>
+                <div class="navMid">
+                        <div class="joinTheClub">
+                                    <img src="https://www.lovelula.com/assets/lovelula_beauty_club-9027b8edc3d44dc991fba6aeb28053205284a8fc0808cdf358599311a9140242.jpg" alt="">
+                        </div>
+                        <div class="lovelulaImage">
+                                <img onclick="homePage()" id="homePageNavigation"src="https://www.lovelula.com/assets/lovelula/logo-ee169905ebacbbfedc3ff0269a000741b729bdef7b3c42dd65f1977c7190665e.png" alt="">
+                        </div>
+                        <div class="freeDeliveryOutside">
+                            <img src="https://www.lovelula.com/assets/lovelula/free_worldwide_delivery-05f2c3fd50884df64f8a486c23b9c6f1b0469e540a7860b2a6e0a853c04dd2de.png" alt="">
+                            <!-- <input type="text" placeholder="I'm Looking for">
+                            <button></button> -->
+                        </div>
+                </div>
+                <div class="navBottom">
+                        <ul class="navBottom_links">
+                            <div class="dropDown">
+                                <li class="navBottomFirstLists"><a href="">BRANDS</a></li>
+                                <div class="products-menu-dropdown">
+                                    <ul class="products-menu-dropdown-links"> 
+                                        <li class="dropLink">
+                                           <p onclick="goToProduct()">Kimberly sayer</p>
+                                           <p onclick="goToProduct()">Lyonsleaf</p>
+                                           <p onclick="goToProduct()">Balm Balm</p>
+                                           <p onclick="goToProduct()">Triology</p>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="dropdown">
+                                <li class="navBottomFirstLists"><a href="">PRODUCTS</a></li>
+                                <div class="dropdown-content shopCategorie">
+                                    <div class="products-menu-dropDown">
+                                         <ul class="products-menu-dropDown-links">
+                                           <li class="dropLink"><a href="../product/product.html"> Make Up</a></li>
+                                           <!-- <div class="makeup-content">
+                                               <div class="makeup-menu-dropdown">
+                                                 <ul class="makeup-manu-dropDown-links">
+                                                     <li> <a href="">test</a></li>
+                                                     <li> <a href="">test2</a></li>
+                                                 </ul>
+                                               </div>
+                                           </div> -->
+                                           <li><a href="../product/product.html">Skin Care</a></li>
+                                           <li><a href="../product/product.html">Personal Care</a></li>
+                                           <li><a href="../product/product.html">Men</a></li>
+                                           <li><a href="../product/product.html">Fragrance</a></li>
+                                           <li><a href="../product/product.html">Health & Wellness</a></li>
+                                           <li><a href="../product/product.html">Mom & Baby</a></li>
+                                         </ul>
+                                         <div class="drop-down-link-container-of-products" >
+                                          <div class="drop-down-link-container-of-products-links">
+                                            <h5>CLENSERS</h5>
+                                             <p onclick="goToProduct()">Facewash</p>
+                                             <p onclick="goToProduct()">Concealer</p>
+                                             <p onclick="goToProduct()">BB & Creams</p>
+                                             <p onclick="goToProduct()">Foundation</p>
+                                             <p onclick="goToProduct()">Compact</p>
+                                             <p onclick="goToProduct()">Loose Powder</p>
+                                          </div>
+                                          <div class="drop-down-link-container-of-products-links">
+                                            <h5>EYE CARE</h5>
+                                            <p onclick="goToProduct()">Eye Masks & Patches</p>
+                                             <p onclick="goToProduct()">Eye Serum</p>
+                                             <p onclick="goToProduct()">Eye Cream</p>
+                                             <p onclick="goToProduct()">Eye Makeup & Remover</p>
+                                          </div>
+                                          <div class="drop-down-link-container-of-products-links">
+                                            <h5>HAND & FOOT CARE</h5>
+                                            <p onclick="goToProduct()">Hand Wash & Soaps</p>
+                                             <p onclick="goToProduct()">Hand Sanitizers</p>
+                                             <p onclick="goToProduct()">Hand Cream</p>
+                                             <p onclick="goToProduct()">Foot Cream and Scrubs</p>
+                                          </div>
+                                          <div class="drop-down-link-container-of-products-links">
+                                            <h5>TONER & FACE MISTS</h5>
+                                            <p onclick="goToProduct()">Tones</p>
+                                             <p onclick="goToProduct()">Face Mists</p>
+                                             <p onclick="goToProduct()">Lip Care</p>
+                                             <p onclick="goToProduct()">Lip Balms</p>
+                                             <p onclick="goToProduct()">Lip Scrubs</p>
+                                          </div>
+                                        </div>
+                                       </div>
+                                    </div>
+                            </div>
+                            <div class="dropDown">
+                                <li class="navBottomFirstLists"><a href="">SKINCARE</a></li>
+                                <div class="products-menu-dropdown">
+                                    <ul class="products-menu-dropdown-links">
+                                        <li class="dropLink">
+                                            <p onclick="goToProduct()">ACNE</p>
+                                            <p onclick="goToProduct()">ANTI AGING</p>
+                                            <p onclick="goToProduct()">BB CREAMS & TINTED MOISTURISERS</p>
+                                            <p onclick="goToProduct()">BALMS</p>
+                                            <p onclick="goToProduct()">CLEANSERS</p>
+                                            <p onclick="goToProduct()">CLEANING CLOTHS</p>
+                                            <p onclick="goToProduct()">EXFOLIATORS</p>
+                                            <p onclick="goToProduct()">EYE MAKEUP- REMOVERS</p>
+                                            <p onclick="goToProduct()">EYES</p>
+                                            <p onclick="goToProduct()">FLORAL WATERS</p>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="dropDown">
+                                <li class="navBottomFirstLists"><a href="">MAKEUP</a></li>
+                                <div class="products-menu-dropdown">
+                                    <ul class="products-menu-dropdown-links">
+                                        <li class="dropLink">
+                                            <p >EYES</p>
+                                            <p>FACES</p>
+                                            <p> LIPS</p>x`z`
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="dropDown">
+                                <li class="navBottomFirstLists"><a href="">BODY</a></li>
+                                <div class="products-menu-dropdown">
+                                    <ul class="products-menu-dropdown-links">
+                                        <li class="dropLink">
+                                            <P onclick="goToProduct()">ANTI CELLULITE</P>
+                                            <P onclick="goToProduct()">BATH & SHOWER</P>
+                                            <P onclick="goToProduct()">DEODRANTS</P>
+                                            <P onclick="goToProduct()">HANDS & FEET</P>
+                                            <P onclick="goToProduct()">INSECT REPELLENT</P>
+                                            <P onclick="goToProduct()">LOTIONS & BUTTER</P>
+                                            <P onclick="goToProduct()">MOISTURISERS</P>
+                                            <P onclick="goToProduct()">OILS</P>
+                                            <P onclick="goToProduct()">POWDERS</P>
+                                            <P onclick="goToProduct()">SCRUBS</P>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="dropDown">
+                                <li class="navBottomFirstLists"><a href="">HAIR</a></li>
+                                <div class="products-menu-dropdown">
+                                    <ul class="products-menu-dropdown-links">
+                                        <li class="dropLink">
+                                         <p>COLOURS</p>
+                                         <p>CONDITIONERS</p>
+                                         <p>SHAMPOOS</p>
+                                         <p>STYLING & TREATMENTS</p>
+                                         <p>TRAVELS SIZES</p>
+                                         <p>TREATMENTS</p>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="dropDown">
+                                <li class="navBottomFirstLists"><a href="">NAILS</a></li>
+                                <div class="products-menu-dropdown">
+                                    <ul class="products-menu-dropdown-links">
+                                        <li class="dropLink">
+                                            <p onclick="goToProduct()">NAIL CARE </p>
+                                            <p onclick="goToProduct()"> NAIL KITS</p>
+                                            <p onclick="goToProduct()">NAIL POLISH </p>
+                                            <p onclick="goToProduct()">NAIL POLISH REMOVER</p>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="dropDown">
+                                <li class="navBottomFirstLists"><a href="">VEGAN</a></li>
+                                <div class="products-menu-dropdown">
+                                    <ul class="products-menu-dropdown-links">
+                                        <li class="dropLink">
+                                            <P onclick="goToProduct()">ACCESSORIES</P>
+                                            <P onclick="goToProduct()">BODY CARE</P>
+                                            <P onclick="goToProduct()">FACE CARE</P>
+                                            <P onclick="goToProduct()">FRAGRANCES</P>
+                                            <P onclick="goToProduct()">HAIRCARE</P>
+                                            <P onclick="goToProduct()">HOME</P>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="dropDown">
+                                <li class="navBottomFirstLists"><a href="">GIFTS</a></li>
+                                <div class="products-menu-dropdown">
+                                    <ul class="products-menu-dropdown-links">
+                                        <li class="dropLink">
+                                            <p onclick="goToProduct()">GIFT SETS</p>
+                                            <p onclick="goToProduct()">CANDLES</p>
+                                            <p onclick="goToProduct()">FRAGRANCES</p>
+                                            <p onclick="goToProduct()">GIFTS FOR MEN</p>
+                                            <p onclick="goToProduct()">GIFT VOUCHER</p>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="dropDown">
+                                <li class="navBottomFirstLists"><a href="">OFFERS</a></li>
+                                <div class="products-menu-dropdown">
+                                    <ul class="products-menu-dropdown-links">
+                                        <li class="dropLink">
+                                            <p onclick="goToProduct()">FREEE GIFT WITH PURCHASE</p>
+                                            <p onclick="goToProduct()">SALE </p>
+                                            <p onclick="goToProduct()">SAMPLES</p>
+                                            <p onclick="goToProduct()">SELECTION BOXES</p>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="dropDown">
+                                <li class="navBottomFirstLists"><a href="">BEAUTY BOX</a></li>
+                                <div class="products-menu-dropdown">
+                                    <ul class="products-menu-dropdown-links">
+                                        <li class="dropLink">
+                                            <p onclick="goToProduct()">SIGN UP</p>
+                                            <p onclick="goToProduct()">F.A.Q</p>
+                                            <p onclick="goToProduct()">PREVIOUS BOXES</p>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+
+                        </ul>
+                </div>
+    
+        </div>
+            <!-- nav end -->
+
+            <!-- slider image container start  -->
+            <div class="sliderContainer">
+                <div class="slideShow">
+                    <div class="sliderMain" id="slider_main_div">
+                      <div class="slide left">
+                        <span id="leftMoveSlider">&#10094;</span>
+                      </div>
+                      <div class="slide right">
+                        <span id="rightMoveSlider">&#10095;</span>
+                      </div>
+                      <div class="btm-sliders">
+                        <span id="point1"></span>
+                        <span id="point2"></span>
+                        <span id="point3"></span>
+                        <span id="point4"></span>
+                        <span id="point5"></span>
+                      </div>
+                    </div>
+                  </div>
+            </div>
+
+            <!-- slider iamge contaier  end  -->
+
+            <!-- subscribe through email container star -->
+            <div class="subscribeEmailContainer">
+                      
+                           <div>
+                            <p>Recieve the latest Lovelula offers by Email<p>
+                           </div>
+                          
+                          
+                             <div>
+                                <input type="text" placeholder="Enter your email address">
+                             </div>
+                         
+                          
+                               <div>
+                                <button> <i class="fas fa-envelope"></i>subscribe</button>
+                               </div>
+                          
+                       </ul>
+            </div>
+            <!-- suscibe trouh email contaier end  -->
+
+            <!-- newSellingProductsContainer start  -->
+            <div class="productSlideShow2">
+                <div class="brandstores">
+                  <img
+                    src="https://media6.ppl-media.com/mediafiles/ecomm/misc/1620880262_brand-stores-web.png"
+                    alt=""
+                  />
+                </div>
+                <div id="parent_brand_stores">
+                  <main>
+                    <span class="brandstoresbutton">&#10094;</span>
+                    <span class="brandstoresbutton">&#10095;</span>
+                    <section class="brandstores_section">
+                      <div class="brandstores_img_div">
+                        <a href="#">
+                          <img
+                            class="brandstores_img_product"
+                            src="https://media6.ppl-media.com/tr:w-512,ar-100-139,c-at_max/mediafiles/ecomm/misc/1605809792_bobbibrown-brand-tile.jpg"
+                            alt=""
+                        /></a>
+                      </div>
+                      <div class="brandstores_img_div">
+                        <a href="#">
+                          <img
+                            class="brandstores_img_product"
+                            src="https://media6.ppl-media.com/tr:w-512,ar-100-139,c-at_max/mediafiles/ecomm/misc/1606716262_carmesi-widget-brand-store.jpg"
+                            alt=""
+                        /></a>
+                      </div>
+        
+                      <div class="brandstores_img_div">
+                        <a href="#">
+                          <img
+                            class="brandstores_img_product"
+                            src="https://media6.ppl-media.com/tr:w-512,ar-582-809,c-at_max/mediafiles/ecomm/misc/1625115013_brand-store-ne.jpg"
+                            alt=""
+                        /></a>
+                      </div>
+                      <div class="brandstores_img_div">
+                        <a href="#">
+                          <img
+                            class="brandstores_img_product"
+                            src="https://media6.ppl-media.com/tr:w-512,ar-100-139,c-at_max/mediafiles/ecomm/misc/1598897729_clinique-store-tile.jpg"
+                            alt=""
+                        /></a>
+                      </div>
+                      <div class="brandstores_img_div">
+                        <a href="#">
+                          <img
+                            class="brandstores_img_product"
+                            src="https://media6.ppl-media.com/tr:w-512,ar-100-139,c-at_max/mediafiles/ecomm/misc/1605183606_shakti-by-ny-bae-widget-brand-store.jpg"
+                            alt=""
+                        /></a>
+                      </div>
+                      <div class="brandstores_img_div">
+                        <a href="#">
+                          <img
+                            class="brandstores_img_product"
+                            src="https://media6.ppl-media.com/tr:w-512,ar-100-139,c-at_max/mediafiles/ecomm/misc/1585221956_good-vibes.jpg"
+                            alt=""
+                        /></a>
+                      </div>
+                      <div class="brandstores_img_div">
+                        <a href="#">
+                          <img
+                            class="brandstores_img_product"
+                            src="https://media6.ppl-media.com/tr:w-512,ar-100-139,c-at_max/mediafiles/ecomm/misc/1580291664_faces-brand-store.jpg"
+                            alt=""
+                        /></a>
+                      </div>
+                      <div class="brandstores_img_div">
+                        <a href="#">
+                          <img
+                            class="brandstores_img_product"
+                            src="https://media6.ppl-media.com/tr:w-512,ar-100-139,c-at_max/mediafiles/ecomm/misc/1580291666_plum-brand-store.jpg"
+                            alt=""
+                        /></a>
+                      </div>
+                      <div class="brandstores_img_div">
+                        <a href="#">
+                          <img
+                            class="brandstores_img_product"
+                            src="https://media6.ppl-media.com/tr:w-512,ar-100-139,c-at_max/mediafiles/ecomm/misc/1585221954_stay-quirky.jpg"
+                            alt=""
+                        /></a>
+                      </div>
+                      <div class="brandstores_img_div">
+                        <a href="#">
+                          <img
+                            class="brandstores_img_product"
+                            src="https://media6.ppl-media.com/tr:w-512,ar-100-139,c-at_max/mediafiles/ecomm/misc/1580291662_nivea-brand-store.jpg"
+                            alt=""
+                        /></a>
+                      </div>
+                      <div class="brandstores_img_div">
+                        <a href="#">
+                          <img
+                            class="brandstores_img_product"
+                            src="https://media6.ppl-media.com/tr:w-512,ar-100-139,c-at_max/mediafiles/ecomm/misc/1585221957_alps-goodness.jpg"
+                            alt=""
+                        /></a>
+                      </div>
+                      <div class="brandstores_img_div">
+                        <a href="#">
+                          <img
+                            class="brandstores_img_product"
+                            src="https://media6.ppl-media.com/tr:w-512,ar-100-139,c-at_max/mediafiles/ecomm/misc/1582296360_1-2.jpg"
+                            alt=""
+                        /></a>
+                      </div>
+                      <div class="brandstores_img_div">
+                        <a href="#">
+                          <img
+                            class="brandstores_img_product"
+                            src="https://media6.ppl-media.com/tr:w-512,ar-100-139,c-at_max/mediafiles/ecomm/misc/1585221954_derm-doc.jpg"
+                            alt=""
+                        /></a>
+                      </div>
+                      <div class="brandstores_img_div">
+                        <a href="#">
+                          <img
+                            class="brandstores_img_product"
+                            src="https://media6.ppl-media.com/tr:w-512,ar-582-809,c-at_max/mediafiles/ecomm/misc/1616649511_sugar-brand-store.jpg"
+                            alt=""
+                        /></a>
+                      </div>
+                      <div class="brandstores_img_div">
+                        <a href="#">
+                          <img
+                            class="brandstores_img_product"
+                            src="https://media6.ppl-media.com/tr:w-512,ar-582-809,c-at_max/mediafiles/ecomm/misc/1617242712_asa-store.jpg"
+                            alt=""
+                        /></a>
+                      </div>
+                    </section>
+                  </main>
+                </div>
+              </div>
+             <!-- newSellingProductsContainer end  -->
+
+             <!-- topSellingProductContainer start  -->
+             <div class="topSellingProductContainer">
+
+             </div>
+
+             <!-- topSellingProductContainer end  -->
+
+             <!-- layoutSection start  -->
+             <div class="layoutSection">
+                    <img src="https://www.lovelula.com/spree/front_page/47/original/FB_Club_Small_Box.jpg?1555599326<" alt="">
+                    <img src="https://www.lovelula.com/spree/front_page/14/original/RBMSmallBox.jpg?1619439265" alt="">
+                    <img src="https://www.lovelula.com/spree/front_page/22/original/LL_BBOX_2019.jpg?1555597830" alt="">
+                    <img src="https://www.lovelula.com/spree/front_page/16/original/GWP_Small_Box.jpg?1555597420" alt="">
+                    <img src="https://www.lovelula.com/spree/front_page/64/original/ManOrganicBox_new.jpg?1555597435" alt="">
+                    <img src="https://www.lovelula.com/spree/front_page/68/original/Sale_Small_Box_copy.jpg?1555597452" alt="">
+             </div>
+             <div class="productSlideShow2">
+                <div class="brandstores">
+                  <img
+                    src="https://media6.ppl-media.com/mediafiles/ecomm/misc/1625474138_web-strip.jpg"
+                    alt=""
+                  />
+                </div>
+                <div id="parent_brand_stores">
+                  <main>
+                    <span class="brandstoresbutton">&#10094;</span>
+                    <span class="brandstoresbutton">&#10095;</span>
+                    <section class="brandstores_section">
+                      <div class="brandstores_img_div">
+                        <a href="#">
+                          <img
+                            class="brandstores_img_product"
+                            src="https://media6.ppl-media.com/tr:w-512,ar-100-139,c-at_max/mediafiles/ecomm/misc/1605809792_bobbibrown-brand-tile.jpg"
+                            alt=""
+                        /></a>
+                      </div>
+                      <div class="brandstores_img_div">
+                        <a href="#">
+                          <img
+                            class="brandstores_img_product"
+                            src="https://media6.ppl-media.com/tr:w-512,ar-100-139,c-at_max/mediafiles/ecomm/misc/1606716262_carmesi-widget-brand-store.jpg"
+                            alt=""
+                        /></a>
+                      </div>
+        
+                      <div class="brandstores_img_div">
+                        <a href="#">
+                          <img
+                            class="brandstores_img_product"
+                            src="https://media6.ppl-media.com/tr:w-512,ar-582-809,c-at_max/mediafiles/ecomm/misc/1625115013_brand-store-ne.jpg"
+                            alt=""
+                        /></a>
+                      </div>
+                      <div class="brandstores_img_div">
+                        <a href="#">
+                          <img
+                            class="brandstores_img_product"
+                            src="https://media6.ppl-media.com/tr:w-512,ar-100-139,c-at_max/mediafiles/ecomm/misc/1598897729_clinique-store-tile.jpg"
+                            alt=""
+                        /></a>
+                      </div>
+                      <div class="brandstores_img_div">
+                        <a href="#">
+                          <img
+                            class="brandstores_img_product"
+                            src="https://media6.ppl-media.com/tr:w-512,ar-100-139,c-at_max/mediafiles/ecomm/misc/1605183606_shakti-by-ny-bae-widget-brand-store.jpg"
+                            alt=""
+                        /></a>
+                      </div>
+                      <div class="brandstores_img_div">
+                        <a href="#">
+                          <img
+                            class="brandstores_img_product"
+                            src="https://media6.ppl-media.com/tr:w-512,ar-100-139,c-at_max/mediafiles/ecomm/misc/1585221956_good-vibes.jpg"
+                            alt=""
+                        /></a>
+                      </div>
+                      <div class="brandstores_img_div">
+                        <a href="#">
+                          <img
+                            class="brandstores_img_product"
+                            src="https://media6.ppl-media.com/tr:w-512,ar-100-139,c-at_max/mediafiles/ecomm/misc/1580291664_faces-brand-store.jpg"
+                            alt=""
+                        /></a>
+                      </div>
+                      <div class="brandstores_img_div">
+                        <a href="#">
+                          <img
+                            class="brandstores_img_product"
+                            src="https://media6.ppl-media.com/tr:w-512,ar-100-139,c-at_max/mediafiles/ecomm/misc/1580291666_plum-brand-store.jpg"
+                            alt=""
+                        /></a>
+                      </div>
+                      <div class="brandstores_img_div">
+                        <a href="#">
+                          <img
+                            class="brandstores_img_product"
+                            src="https://media6.ppl-media.com/tr:w-512,ar-100-139,c-at_max/mediafiles/ecomm/misc/1585221954_stay-quirky.jpg"
+                            alt=""
+                        /></a>
+                      </div>
+                      <div class="brandstores_img_div">
+                        <a href="#">
+                          <img
+                            class="brandstores_img_product"
+                            src="https://media6.ppl-media.com/tr:w-512,ar-100-139,c-at_max/mediafiles/ecomm/misc/1580291662_nivea-brand-store.jpg"
+                            alt=""
+                        /></a>
+                      </div>
+                      <div class="brandstores_img_div">
+                        <a href="#">
+                          <img
+                            class="brandstores_img_product"
+                            src="https://media6.ppl-media.com/tr:w-512,ar-100-139,c-at_max/mediafiles/ecomm/misc/1585221957_alps-goodness.jpg"
+                            alt=""
+                        /></a>
+                      </div>
+                      <div class="brandstores_img_div">
+                        <a href="#">
+                          <img
+                            class="brandstores_img_product"
+                            src="https://media6.ppl-media.com/tr:w-512,ar-100-139,c-at_max/mediafiles/ecomm/misc/1582296360_1-2.jpg"
+                            alt=""
+                        /></a>
+                      </div>
+                      <div class="brandstores_img_div">
+                        <a href="#">
+                          <img
+                            class="brandstores_img_product"
+                            src="https://media6.ppl-media.com/tr:w-512,ar-100-139,c-at_max/mediafiles/ecomm/misc/1585221954_derm-doc.jpg"
+                            alt=""
+                        /></a>
+                      </div>
+                      <div class="brandstores_img_div">
+                        <a href="#">
+                          <img
+                            class="brandstores_img_product"
+                            src="https://media6.ppl-media.com/tr:w-512,ar-582-809,c-at_max/mediafiles/ecomm/misc/1616649511_sugar-brand-store.jpg"
+                            alt=""
+                        /></a>
+                      </div>
+                      <div class="brandstores_img_div">
+                        <a href="#">
+                          <img
+                            class="brandstores_img_product"
+                            src="https://media6.ppl-media.com/tr:w-512,ar-582-809,c-at_max/mediafiles/ecomm/misc/1617242712_asa-store.jpg"
+                            alt=""
+                        /></a>
+                      </div>
+                    </section>
+                  </main>
+                </div>
+              </div>
+             <!-- layoutSection end  -->
+
+             <!-- awardContainer start  -->
+
+             <div class="awardContainer">
+                    <img src="https://www.lovelula.com/assets/homepage-awards-3baf7ca8a960c0f95a884a432e2a472d9450c0bea5e97c0bfec51d286742b623.png" alt="">
+             </div>
+             <!-- awardContainer end  -->
+               
+                <!-- footer start  -->
+                <div class="footer">
+                    <ul>
+                     <li>ABOUT US</li>
+                     <li>CONTACT US</li>
+                     <li>DELIVERY</li>
+                     <li>LOVELULA POINTS</li>
+                     <li>TAX FREE SHOPPING</li>
+                     <li>AFFILIATE SCHEME</li>
+                     <li>NEWSLETTER</li>
+                     <li>JOB VACANCIES</li>
+                     <li>COOKIES</li>
+                     <li>PRIVACY POLICY</li>
+                    </ul>
+                </div>
+                <div class="copyright">
+                    <div>
+                     <p>All Rights Reserved. 2006-2021 Amayra Ltd . Natural and Organic <br>
+                         Beauty . UK &  Ireland</p>
+                    </div>
+                         <div class="cards">
+                             <img src="https://www.lovelula.com/assets/credit-cards-flat-fc7ba8d1212f0316e1374500ed81284f4917f3862f2ed074b485878e7b8a7fad.png" alt="">
+                             <img src="https://www.lovelula.com/assets/rmb-logo-26e29b9ab8fb684a1068d0e5933b9787381ac0a332e104b8b580668e9903a3d9.png" alt="">
+                         </div>
+                         <div>
+                             <img src="https://www.gstatic.com/verifiedreviews/en-GB/no_rating.png" alt="">
+                         </div>
+                </div>
+
+             <!-- copyright end  -->
+    </div>
+        <script src="index.js" async defer></script>
+    </body>
+</html>

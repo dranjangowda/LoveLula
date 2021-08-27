@@ -1,0 +1,625 @@
+.mainContianer{
+    width: 80%;
+    margin: auto;
+}
+.navTopLists{
+    display: inline;
+}
+.navTopListsLi{
+    list-style: disc;
+}
+.navTopListsLi{
+    display: inline;
+    list-style: disc;
+    margin: 5px;
+    font-size: small;
+}
+.navTopListsLi a{
+ text-decoration: none;
+ color: grey;
+}
+.navTopLists a:hover{
+  border-bottom: solid 3px rgb(234, 75, 121);
+  transform: scaleX(1);
+  transition: 250ms ease-in-out;
+}
+.fa-circle{
+    font-size: xx-small;
+    margin: 3px;
+}
+.navMid{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin-top: 25PX;
+}
+.navMid .joinTheClub{
+   
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+.navMid div{
+    width: 30%;
+}
+/* .navTop{
+  position:fixed;
+} */
+.navBottom{
+    background-color: rgb(92,97,103);
+    width: 100%;
+    border-radius: 15px;
+    height: 25px;
+    /* position:fixed; */
+}
+.freeDeliveryOutside{
+    width: 30%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+}
+.navBottom_links .navBottomFirstLists{
+    display: inline;
+    margin: 0px 30px 20px 0px;
+    font-size: 13.5px;
+    font-weight: 200;
+    margin-top: 10px;
+  }
+  .navBottom_links a {
+    text-decoration: none;
+    color: white;
+  }
+  .navBottom_links a:hover {
+    color: black;
+    border-bottom: solid 3px rgb(234, 75, 121);
+    transform: scaleX(1);
+    transition: 250ms ease-in-out;
+  }
+  .navBottom_links {
+    display: flex;
+    justify-content: center;
+  }
+  .dropDown {
+    position: relative;
+    display: inline-block;
+  }
+  .products-menu-dropdown{
+    width: 100%;
+    background-color: white;
+    display: none;
+    position: relative;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  .dropDown:hover .products-menu-dropdown {
+      display: block;
+}
+
+.dropLink{
+ list-style: none;
+ padding: 10px;
+ color: black;
+ font-size: small;
+ margin: 1px;
+ margin-left: -25px;
+}
+.dropLink p:hover{
+    cursor: pointer;
+    border-bottom: solid 3px rgb(234, 75, 121);
+    transform: scaleX(1);
+    transition: 250ms ease-in-out;
+}
+.dropdown {
+    position: relative;
+    display: inline-block;
+    /* width: 100%; */
+    list-style: none;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    /* width: 100%; */
+    background-color: #f9f9f9;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 12;
+  }
+  .shopCategorie {
+    margin-left: -150px;
+  }
+  
+  .brands {
+    margin-left: -300px;
+  }
+  .dropdown-content a {
+    width: 100%;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    /* font-family: "Roboto", sans-serif; */
+  }
+  
+  .dropdown-content a:hover {
+    background-color: #f1f1f1;
+    color: rgb(234, 75, 121);
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  
+  .dropdown:hover .dropbtn {
+    /* background-color: #3e8e41; */
+    border-bottom: solid 3px rgb(234, 75, 121);
+    transform: scaleX(1);
+    transition: 250ms ease-in-out;
+  }
+  
+  .products-menu-dropDown-links li {
+    /* display: inline; */
+    margin: 0px 30px 20px 0px;
+    font-size: 14px;
+    font-weight: 600;
+    width: 100px;
+    list-style: none;
+  }
+  .products-menu-dropDown-links a {
+    text-decoration: none;
+    color: black;
+  }
+  .products-menu-dropDown-links a:hover {
+    border-bottom: solid 3px rgb(234, 75, 121);
+    transform: scaleX(1);
+    transition: 250ms ease-in-out;
+  }
+  .products-menu-dropDown-links {
+    display: flex;
+    justify-content: center;
+  }
+  .brandsImages > ul {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  }
+  .brandsImages img {
+    margin: 30px;
+  }
+  .drop-down-link-container-of-products {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .drop-down-link-container-of-products-links {
+    margin: 0px 20px 20px 20px;
+  }
+  .drop-down-link-container-of-products-links p {
+    margin: 20px;
+    font-size: 13px;
+    cursor: pointer;
+  }
+  .drop-down-link-container-of-products-links p:hover {
+    border-bottom: solid 3px rgb(234, 75, 121);
+    transform: scaleX(1);
+    transition: 250ms ease-in-out;
+  }
+  .checkoutDiv{
+      width: 100%;
+      padding: 5px;
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      grid-gap: 30%;
+      border-bottom: 1px solid grey;
+  }
+  .checkoutDiv button{
+      width: 90%;
+      height: 60px;
+      margin-top: 20px;
+      background-color: rgb(236,109,145);
+      font-size:large ;
+      color: white;
+      font-weight: 700;
+     
+  }
+  .container {
+    width: 76%;
+    margin: auto;
+    text-align: left;
+    letter-spacing: 0.5px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  .left {
+    width: 70%;
+    min-width: 500px;
+    margin-top: 20px;
+  }
+  
+  .right {
+    top: 148px;
+    width: 23%;
+    min-width: 300px;
+    right: 20%;
+    margin-top: 100px;
+    /* position: fixed; */
+    /* overflow: hidden; */
+  }
+  
+  .left > h2 {
+    font-size: 20px;
+    margin-top: 20px;
+    line-height: 1.1;
+    margin-bottom: 10px;
+    font-weight: 550;
+  }
+  
+  .offerDetail {
+    box-shadow: 0px 0px 3px #2b3031;
+    margin: 5px 90px 15px 0px;
+    padding-left: 20px !important;
+    margin-right: 23%;
+    font-size: 14px;
+    color: #2c414c !important;
+    font-weight: 400;
+    padding: 10px;
+    line-height: 20px;
+  }
+  
+  .couponBar {
+    box-shadow: 0px 0px 3px #2b3031;
+    margin: 5px 90px 15px 0px;
+    padding-left: 20px !important;
+    margin-right: 23%;
+    font-size: 14px;
+    color: #2c414c !important;
+    font-weight: 400;
+    padding: 10px;
+    line-height: 20px;
+    background-color: #f9d3e8;
+  }
+  
+  .couponBar {
+    background-color: #f9d3e8;
+    font-size: 14px;
+    color: #2c414c;
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.5;
+  }
+  .couponBar .useCode {
+    font-size: 14px;
+    background-color: white;
+    border: 2px dashed #e40980;
+    text-align: center;
+    width: 75%;
+  }
+  .couponBar .useCode > h3 {
+    display: inline;
+    font-size: 18px;
+    color: #e40980;
+  }
+  
+  .couponBarImage {
+    width: 40px;
+    margin-right: 20px;
+  }
+  
+  .priceTag {
+    margin: 0px 0px 0px -16px;
+    float: left;
+    color: #e40980;
+  }
+  
+  .redTC {
+    color: #e40980;
+  }
+  .myCart {
+    font-size: 20px;
+    line-height: 1.1;
+  }
+  
+  .myCartCount {
+    margin-bottom: 15px;
+  }
+  .shopMore {
+    font-size: 16px;
+    color: #e40980;
+    margin-left: 50%;
+    cursor: pointer;
+  }
+  
+  .safePayment {
+    height: 60px;
+    border: 1px solid #bfc6c9;
+  }
+  
+  .safePayment > img {
+    float: left;
+    padding: 6px 30px;
+  }
+  
+  .safePayment > h3 {
+    font-size: 20px;
+    color: #2c414c !important;
+    margin-top: 9px;
+  }
+  
+  .genuine {
+    clear: left;
+    opacity: 0.8;
+    color: #6c7a82;
+    font-size: 13px;
+    margin: 0px;
+  }
+  
+  .pincode {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 50px;
+  }
+  .pincode input {
+    border: none;
+    margin-top: 10px;
+  }
+  
+  .pincode > h4 {
+    float: right;
+    color: #e40980;
+    font-weight: 400;
+    margin-left: 60%;
+    margin-top: -7%;
+    font-size: 14px;
+    cursor: pointer;
+  }
+  
+  .coupons {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 50px;
+  }
+  .coupons input {
+    border: none;
+    margin-top: 10px;
+  }
+  
+  .coupons > h4 {
+    float: right;
+    color: #e40980;
+    font-weight: 400;
+    margin-left: 66%;
+    margin-top: -7%;
+    font-size: 14px;
+    cursor: pointer;
+  }
+  
+  .priceDetails > p {
+    font-size: 14px;
+    margin: 12px 0px;
+  }
+  
+  .t_mrp,
+  .s_mrp,
+  .sub_mrp,
+  .shipping,
+  .coupon,
+  .o_total_mrp {
+    float: left;
+    font-size: 14px;
+    color: #6c7a82;
+  }
+  
+  .t_price,
+  .s_price,
+  .sub_price,
+  .shipping_price,
+  .apply_coupon,
+  .o_total_price {
+    float: right;
+    color: #6c7a82;
+    font-size: 14px;
+  }
+  
+  .save_price {
+    float: right;
+  }
+  
+  .total_mrp,
+  .savings_on_mrp,
+  .sub_total,
+  .shipping_charges,
+  .coupon_discount,
+  .order_total {
+    height: 30px;
+  }
+  
+  .apply_coupon {
+    /* margin-top: 1%; */
+    color: #e40980;
+    font-weight: 400;
+    font-size: 12px;
+  }
+  
+  .s_price {
+    color: #e40980;
+  }
+  
+  hr {
+    clear: both;
+    opacity: 0.5;
+  }
+  
+  .o_total_mrp,
+  .o_total_price {
+    margin-top: 0%;
+    font-size: 18px;
+    color: #2c414c;
+  }
+  
+  .you_save {
+    height: 30px;
+    font-size: 14px;
+    color: #e40980;
+  }
+  
+  .save {
+    float: left;
+    margin-right: 50%;
+    color: #6c7a82;
+  }
+  
+  .save_price {
+    float: right;
+  }
+  
+  .place_order_btn {
+    width: 100%;
+    height: 40px;
+    margin-top: 10px;
+    background-color: #e40980;
+    color: white;
+    font-size: 16px;
+    font-weight: 550;
+    border-radius: 3px;
+    border: none;
+  }
+  
+  .leftdiv {
+    width: 55%;
+    margin-top: 8%;
+    float: left;
+    height: 400px;
+    /* border: 2px solid orange; */
+  }
+  
+  .avail_para {
+    height: 30px;
+    box-shadow: 0 1px 3px 0px rgb(0 0 0 / 40%);
+    width: 98%;
+    padding-top: 10px;
+    padding-left: 15px;
+    margin-top: 0%;
+  }
+  
+  .avail_para > span,
+  a {
+    color: #e40980;
+    text-decoration: none;
+  }
+  
+  .avail_offer > h3 {
+    margin-bottom: 1%;
+  }
+  
+  .mycart {
+    height: 30px;
+  }
+  
+  .mycart > h3 {
+    float: left;
+    margin-top: 0%;
+  }
+  
+  .mycart > a {
+    float: right;
+    text-decoration: none;
+    color: #e40980;
+    padding-right: 20px;
+  }
+  
+  /* -------------------------------------------- */
+  
+  #fDiv {
+    width: 77%;
+    height: 107px;
+    /* float: left; */
+    display: flex;
+    padding: 10px;
+    box-shadow: 0px 0px 3px #2b3031;
+    margin: 10px 0px;
+    font-size: 14px;
+    color: #6c7a82;
+  }
+  
+  #proName {
+    flex-grow: 2;
+  }
+  
+  #fImage {
+    width: 70%;
+    text-align: center;
+  }
+  
+  #imgDiv {
+    width: 20%;
+    flex-grow: 1;
+  }
+  #floatAll {
+    /* width: 50px; */
+    /* display: inline-block; */
+    flex-basis: 120px;
+    flex-grow: 1;
+  }
+  #priceAndSymbol {
+    float: right;
+    color: #2c414c;
+  }
+  
+  #h333 {
+    display: inline;
+    font-size: 18px;
+    float: right;
+    color: #2c414c;
+  }
+  #redColor {
+    color: #e40980;
+    display: inline;
+    font-size: 13px;
+    float: right;
+  }
+  
+  #opacity {
+    text-decoration: line-through;
+    display: inline;
+    font-size: 13px;
+    color: #bfc6c9;
+    float: right;
+  }
+  
+  #couponAppColor {
+    color: #e40980;
+  }
+  
+  /* Remove button */
+  #proRemove {
+    margin-top: 50px;
+    margin-left: 110px;
+    position: absolute;
+    color: #e40980;
+    font-size: 15px;
+    cursor: pointer;
+  } .footer{
+    width: 100%;
+    border-bottom: 1px solid grey;
+    border-top: 1px solid grey;
+    margin-top: 15px;
+}
+.footer li {
+    display: inline;
+    font-size: 12px;
+    margin-right: 5px;
+}
+.footer li:hover{
+    cursor: pointer;
+}
+.copyright  div{
+   margin-right: 80px;
+   font-size: small;
+}
+.copyright{
+    margin-top: 10px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}

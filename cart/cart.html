@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="cart.css">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+    </head>
+    <body>
+        <div class="mainContianer">
+              <!-- nav Start -->
+        <div class="navigationBar">
+            <nav>
+                <div class="navTop">
+                    <a href="index.html"></i><i class="fas fa-home"></i></a>
+                    <ul class="navTopLists" >
+                        <li class="navTopListsLi">
+                            <i class="fas fa-circle"></i>
+                            <i class="fas fa-phone-alt"></i>
+                              orders 0800 731 1256 
+                        </li>
+                        <li class="navTopListsLi">
+                        <i class="fas fa-circle"></i>
+                        <i class="fas fa-envelope"></i>
+                           Email us
+                       </li>
+                       <li class="navTopListsLi"> <i class="fas fa-circle"></i>
+                        Subscribe to our news letter
+                    </li>
+                    <li  class="navTopListsLi">
+                        <input type="text" placeholder="Email Address">
+                        <button><i class="fas fa-envelope"></i></button>
+                    </li>
+                    </ul>
+                    <ul   class="navTopLists navTopListsLiRight">
+                        <li  class="navTopListsLi">
+                            <i class="fas fa-shopping-cart"></i>
+                            basket : (empty)
+                        </li>
+                        <li class="navTopListsLi"><a href="../login/login.html">Login</a></li>
+                        <li  class="navTopListsLi"><a href="../signup/signup.html">Register</a></li>
+                    </ul>
+                </div>
+                    <hr>
+                <div class="navMid">
+                        <div class="joinTheClub">
+                                    <img src="https://www.lovelula.com/assets/lovelula_beauty_club-9027b8edc3d44dc991fba6aeb28053205284a8fc0808cdf358599311a9140242.jpg" alt="">
+                        </div>
+                        <div class="lovelulaImage">
+                                <img src="https://www.lovelula.com/assets/lovelula/logo-ee169905ebacbbfedc3ff0269a000741b729bdef7b3c42dd65f1977c7190665e.png" alt="">
+                        </div>
+                        <div class="freeDeliveryOutside">
+                            <img src="https://www.lovelula.com/assets/lovelula/free_worldwide_delivery-05f2c3fd50884df64f8a486c23b9c6f1b0469e540a7860b2a6e0a853c04dd2de.png" alt="">
+                            <!-- <input type="text" placeholder="I'm Looking for">
+                            <button></button> -->
+                        </div>
+                </div>
+                <div class="navBottom">
+                        <ul class="navBottom_links">
+                            <div class="dropDown">
+                                <li class="navBottomFirstLists"><a href="">BRANDS</a></li>
+                                <div class="products-menu-dropdown">
+                                    <ul class="products-menu-dropdown-links"> 
+                                        <li class="dropLink">
+                                           <p onclick="goToProduct()">Kimberly sayer</p>
+                                           <p onclick="goToProduct()">Lyonsleaf</p>
+                                           <p onclick="goToProduct()">Balm Balm</p>
+                                           <p onclick="goToProduct()">Triology</p>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="dropdown">
+                                <li class="navBottomFirstLists"><a href="">PRODUCTS</a></li>
+                                <div class="dropdown-content shopCategorie">
+                                    <div class="products-menu-dropDown">
+                                         <ul class="products-menu-dropDown-links">
+                                           <li class="dropLink"><a href="../product/product.html"> Make Up</a></li>
+                                           <!-- <div class="makeup-content">
+                                               <div class="makeup-menu-dropdown">
+                                                 <ul class="makeup-manu-dropDown-links">
+                                                     <li> <a href="">test</a></li>
+                                                     <li> <a href="">test2</a></li>
+                                                 </ul>
+                                               </div>
+                                           </div> -->
+                                           <li><a href="../product/product.html">Skin Care</a></li>
+                                           <li><a href="../product/product.html">Personal Care</a></li>
+                                           <li><a href="../product/product.html">Men</a></li>
+                                           <li><a href="../product/product.html">Fragrance</a></li>
+                                           <li><a href="../product/product.html">Health & Wellness</a></li>
+                                           <li><a href="../product/product.html">Mom & Baby</a></li>
+                                         </ul>
+                                         <div class="drop-down-link-container-of-products" >
+                                          <div class="drop-down-link-container-of-products-links">
+                                            <h5>CLENSERS</h5>
+                                             <p onclick="goToProduct()">Facewash</p>
+                                             <p onclick="goToProduct()">Concealer</p>
+                                             <p onclick="goToProduct()">BB & Creams</p>
+                                             <p onclick="goToProduct()">Foundation</p>
+                                             <p onclick="goToProduct()">Compact</p>
+                                             <p onclick="goToProduct()">Loose Powder</p>
+                                          </div>
+                                          <div class="drop-down-link-container-of-products-links">
+                                            <h5>EYE CARE</h5>
+                                            <p onclick="goToProduct()">Eye Masks & Patches</p>
+                                             <p onclick="goToProduct()">Eye Serum</p>
+                                             <p onclick="goToProduct()">Eye Cream</p>
+                                             <p onclick="goToProduct()">Eye Makeup & Remover</p>
+                                          </div>
+                                          <div class="drop-down-link-container-of-products-links">
+                                            <h5>HAND & FOOT CARE</h5>
+                                            <p onclick="goToProduct()">Hand Wash & Soaps</p>
+                                             <p onclick="goToProduct()">Hand Sanitizers</p>
+                                             <p onclick="goToProduct()">Hand Cream</p>
+                                             <p onclick="goToProduct()">Foot Cream and Scrubs</p>
+                                          </div>
+                                          <div class="drop-down-link-container-of-products-links">
+                                            <h5>TONER & FACE MISTS</h5>
+                                            <p onclick="goToProduct()">Tones</p>
+                                             <p onclick="goToProduct()">Face Mists</p>
+                                             <p onclick="goToProduct()">Lip Care</p>
+                                             <p onclick="goToProduct()">Lip Balms</p>
+                                             <p onclick="goToProduct()">Lip Scrubs</p>
+                                          </div>
+                                        </div>
+                                       </div>
+                                    </div>
+                            </div>
+                            <div class="dropDown">
+                                <li class="navBottomFirstLists"><a href="">SKINCARE</a></li>
+                                <div class="products-menu-dropdown">
+                                    <ul class="products-menu-dropdown-links">
+                                        <li class="dropLink">
+                                            <p onclick="goToProduct()">ACNE</p>
+                                            <p onclick="goToProduct()">ANTI AGING</p>
+                                            <p onclick="goToProduct()">BB CREAMS & TINTED MOISTURISERS</p>
+                                            <p onclick="goToProduct()">BALMS</p>
+                                            <p onclick="goToProduct()">CLEANSERS</p>
+                                            <p onclick="goToProduct()">CLEANING CLOTHS</p>
+                                            <p onclick="goToProduct()">EXFOLIATORS</p>
+                                            <p onclick="goToProduct()">EYE MAKEUP- REMOVERS</p>
+                                            <p onclick="goToProduct()">EYES</p>
+                                            <p onclick="goToProduct()">FLORAL WATERS</p>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="dropDown">
+                                <li class="navBottomFirstLists"><a href="">MAKEUP</a></li>
+                                <div class="products-menu-dropdown">
+                                    <ul class="products-menu-dropdown-links">
+                                        <li class="dropLink">
+                                            <p >EYES</p>
+                                            <p>FACES</p>
+                                            <p> LIPS</p>x`z`
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="dropDown">
+                                <li class="navBottomFirstLists"><a href="">BODY</a></li>
+                                <div class="products-menu-dropdown">
+                                    <ul class="products-menu-dropdown-links">
+                                        <li class="dropLink">
+                                            <P onclick="goToProduct()">ANTI CELLULITE</P>
+                                            <P onclick="goToProduct()">BATH & SHOWER</P>
+                                            <P onclick="goToProduct()">DEODRANTS</P>
+                                            <P onclick="goToProduct()">HANDS & FEET</P>
+                                            <P onclick="goToProduct()">INSECT REPELLENT</P>
+                                            <P onclick="goToProduct()">LOTIONS & BUTTER</P>
+                                            <P onclick="goToProduct()">MOISTURISERS</P>
+                                            <P onclick="goToProduct()">OILS</P>
+                                            <P onclick="goToProduct()">POWDERS</P>
+                                            <P onclick="goToProduct()">SCRUBS</P>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="dropDown">
+                                <li class="navBottomFirstLists"><a href="">HAIR</a></li>
+                                <div class="products-menu-dropdown">
+                                    <ul class="products-menu-dropdown-links">
+                                        <li class="dropLink">
+                                         <p>COLOURS</p>
+                                         <p>CONDITIONERS</p>
+                                         <p>SHAMPOOS</p>
+                                         <p>STYLING & TREATMENTS</p>
+                                         <p>TRAVELS SIZES</p>
+                                         <p>TREATMENTS</p>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="dropDown">
+                                <li class="navBottomFirstLists"><a href="">NAILS</a></li>
+                                <div class="products-menu-dropdown">
+                                    <ul class="products-menu-dropdown-links">
+                                        <li class="dropLink">
+                                            <p onclick="goToProduct()">NAIL CARE </p>
+                                            <p onclick="goToProduct()"> NAIL KITS</p>
+                                            <p onclick="goToProduct()">NAIL POLISH </p>
+                                            <p onclick="goToProduct()">NAIL POLISH REMOVER</p>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="dropDown">
+                                <li class="navBottomFirstLists"><a href="">VEGAN</a></li>
+                                <div class="products-menu-dropdown">
+                                    <ul class="products-menu-dropdown-links">
+                                        <li class="dropLink">
+                                            <P onclick="goToProduct()">ACCESSORIES</P>
+                                            <P onclick="goToProduct()">BODY CARE</P>
+                                            <P onclick="goToProduct()">FACE CARE</P>
+                                            <P onclick="goToProduct()">FRAGRANCES</P>
+                                            <P onclick="goToProduct()">HAIRCARE</P>
+                                            <P onclick="goToProduct()">HOME</P>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="dropDown">
+                                <li class="navBottomFirstLists"><a href="">GIFTS</a></li>
+                                <div class="products-menu-dropdown">
+                                    <ul class="products-menu-dropdown-links">
+                                        <li class="dropLink">
+                                            <p onclick="goToProduct()">GIFT SETS</p>
+                                            <p onclick="goToProduct()">CANDLES</p>
+                                            <p onclick="goToProduct()">FRAGRANCES</p>
+                                            <p onclick="goToProduct()">GIFTS FOR MEN</p>
+                                            <p onclick="goToProduct()">GIFT VOUCHER</p>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="dropDown">
+                                <li class="navBottomFirstLists"><a href="">OFFERS</a></li>
+                                <div class="products-menu-dropdown">
+                                    <ul class="products-menu-dropdown-links">
+                                        <li class="dropLink">
+                                            <p onclick="goToProduct()">FREEE GIFT WITH PURCHASE</p>
+                                            <p onclick="goToProduct()">SALE </p>
+                                            <p onclick="goToProduct()">SAMPLES</p>
+                                            <p onclick="goToProduct()">SELECTION BOXES</p>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="dropDown">
+                                <li class="navBottomFirstLists"><a href="">BEAUTY BOX</a></li>
+                                <div class="products-menu-dropdown">
+                                    <ul class="products-menu-dropdown-links">
+                                        <li class="dropLink">
+                                            <p onclick="goToProduct()">SIGN UP</p>
+                                            <p onclick="goToProduct()">F.A.Q</p>
+                                            <p onclick="goToProduct()">PREVIOUS BOXES</p>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+
+                        </ul>
+                </div>
+    
+        </div>
+
+        <div class="checkoutDiv">
+            <h1>Your Shoppping basket</h1>
+            <button onclick="goTo">Continue Chekout <i class="fas fa-arrow-right"></i></button>
+        </div>
+        <div class="container">
+            <div class="left">
+              <div class="couponBar">
+                 <div> APPLY COUPON & GET FLAT 30% OFF  <br><div class="useCode"> Use Code: <h3>FIRST 30</h3></div></div> 
+               </div> 
+             
+              <div class="myCartCount">
+                <span class="myCart" id="myCart111">My Cart()</span>
+                <span class="shopMore" id="shopMore" onclick="shopMore()">Shop More ></span>
+              </div>
+              <div class="fatchedProducts" id="fatchedProducts"></div>
+            </div>
+            <div class="right">
+             
+              <div class="pincode">
+                <input type="number" placeholder="Enter Pincode" />
+                <h4>CHECK DELIVERY</h4>
+              </div>
+              <hr />
+              <div class="coupons">
+                <input type="text" name="" id="couponInput" class="couponInput" placeholder="Enter Coupon">
+                <h4 id="apply_coupon" onclick="takeInput()">APPLY COUPON</h4>
+              </div>
+              <hr />
+              <div class="priceDetails">
+                <p>Price Details:</p>
+                <div class="total_mrp">
+                  <div class="t_mrp">Total MRP:</div>
+                  <div class="t_price" id="t_price">₹0</div>
+                </div>
+                <div class="savings_on_mrp">
+                  <div class="s_mrp">Savings on MRP:</div>
+                  <div class="s_price" id="s_price">-₹0</div>
+                </div>
+                <div class="sub_total">
+                  <div class="sub_mrp">Subtotal:</div>
+                  <div class="sub_price" id = "sub_price">₹0</div>
+                </div>
+                <div class="shipping_charges">
+                  <div class="shipping">Shipping charges:</div>
+                  <div class="shipping_price">₹49</div>
+                </div>
+                <div class="coupon_discount">
+                  <div class="coupon">Coupon Discount:</div>
+                  <h4 class="apply_coupon" id="c">APPLY COUPON</h4>
+                </div>
+              </div>
+              <hr />
+              <div class="order_total">
+                <h3 class="o_total_mrp">Order total:</h3>
+                <h3 class="o_total_price" id="o_total_price">₹0</h3>
+              </div>
+              <div class="you_save">
+                <div class="save">You Save:</div>
+                <div class="save_price" id="save_price">₹0</div>
+              </div>
+              <button onclick="checkout()" class="place_order_btn">
+                PLACE ORDER
+              </button>
+            </div>
+          
+
+        </div>
+        <div class="footer">
+            <ul>
+             <li>ABOUT US</li>
+             <li>CONTACT US</li>
+             <li>DELIVERY</li>
+             <li>LOVELULA POINTS</li>
+             <li>TAX FREE SHOPPING</li>
+             <li>AFFILIATE SCHEME</li>
+             <li>NEWSLETTER</li>
+             <li>JOB VACANCIES</li>
+             <li>COOKIES</li>
+             <li>PRIVACY POLICY</li>
+            </ul>
+        </div>
+        <div class="copyright">
+            <div>
+             <p>All Rights Reserved. 2006-2021 Amayra Ltd . Natural and Organic <br>
+                 Beauty . UK &  Ireland</p>
+            </div>
+                 <div class="cards">
+                     <img src="https://www.lovelula.com/assets/credit-cards-flat-fc7ba8d1212f0316e1374500ed81284f4917f3862f2ed074b485878e7b8a7fad.png" alt="">
+                     <img src="https://www.lovelula.com/assets/rmb-logo-26e29b9ab8fb684a1068d0e5933b9787381ac0a332e104b8b580668e9903a3d9.png" alt="">
+                 </div>
+                 <div>
+                     <img src="https://www.gstatic.com/verifiedreviews/en-GB/no_rating.png" alt="">
+                 </div>
+        </div>
+        <!--[if lt IE 7]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+        
+        <script src="cart.js" async defer></script>
+    </body>
+</html>

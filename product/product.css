@@ -1,0 +1,320 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+
+.mainContainer{
+    width: 80%;
+    margin: auto;
+}
+  .lovelulaImage:hover{
+    cursor: pointer;
+  }
+  .productList {
+    width: 80%;
+    margin: auto;
+    margin-top: 45px;
+    /* overflow: hidden; */
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+  }
+  #gDiv {
+    margin: 30px;
+    position: relative;
+  }
+  /* #gDiv:hover {
+    transform: scaleX(1.2);
+  } */
+  
+  #gridImage {
+    width: 100%;
+    position: relative;
+    margin: auto;
+  }
+  
+  #addToCart {
+    /* position: absolute !important; */
+    width: 100%;
+    height: 35px;
+    color: white;
+    background-color: rgb(150,155,162);
+    border-radius: 5px;
+    margin: -18% auto;
+    z-index: 10;
+    color: #fff;
+    padding-top: 3px;
+    /* display: none; */
+    letter-spacing: 1px;
+  }
+  /* #gDiv:hover #addToCart {
+    display: block;
+  } */
+  
+  #floatAll {
+    display: flex;
+  }
+  #opacity {
+    color: #bfc6c9;
+    font-size: 12px;
+    line-height: 2;
+  }
+  #h333 {
+    font-size: 18px;
+    color: #2c414c;
+    font-weight: bold;
+  }
+  #redColor {
+    font-size: 12px;
+    line-height: 2;
+    color: #e40980;
+    opacity: 0.9;
+    /* overflow: hidden; */
+  }
+  #proName {
+    height: 42px;
+    color: #566770;
+    font-size: 16px;
+    text-align: left;
+    letter-spacing: 0.5px;
+    margin-top: 5px;
+    padding-right: 10px;
+    line-height: 21px;
+    overflow: hidden;
+  }
+  .fa-shopping-cart{
+      color: white;
+      font-size: x-small;
+      font-weight: 300;
+  }
+  #proBrand{
+      text-align: center;
+      color: rgb(236,109,145);
+      font-family: 'Open Sans', sans-serif;
+      font-weight: 600;
+      font-size: medium;
+  }
+  .navTopLists{
+    display: inline;
+}
+.navTopListsLi{
+    list-style: disc;
+}
+.navTopListsLi{
+    display: inline;
+    list-style: disc;
+    margin: 5px;
+    font-size: small;
+}
+.fa-circle{
+    font-size: xx-small;
+    margin: 3px;
+}
+.navMid{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin-top: 25PX;
+}
+.navMid .joinTheClub{
+   
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+.navMid div{
+    width: 30%;
+}
+.navBottom{
+    background-color: rgb(92,97,103);
+    width: 100%;
+    border-radius: 15px;
+    height: 25px;
+}
+.freeDeliveryOutside{
+    width: 30%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+}
+.navBottom_links .navBottomFirstLists{
+    display: inline;
+    margin: 0px 30px 20px 0px;
+    font-size: 13.5px;
+    font-weight: 200;
+    margin-top: 10px;
+  }
+  .navBottom_links a {
+    text-decoration: none;
+    color: white;
+  }
+  .navBottom_links a:hover {
+    color: black;
+    border-bottom: solid 3px rgb(234, 75, 121);
+    transform: scaleX(1);
+    transition: 250ms ease-in-out;
+  }
+  .navBottom_links {
+    display: flex;
+    justify-content: center;
+  }
+  .dropDown {
+    position: relative;
+    display: inline-block;
+  }
+  .products-menu-dropdown{
+    width: 100%;
+    background-color: white;
+    display: none;
+    position: relative;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  .dropDown:hover .products-menu-dropdown {
+      display: block;
+}
+
+.dropLink{
+ list-style: none;
+ padding: 10px;
+ color: black;
+ font-size: small;
+ margin: 1px;
+ margin-left: -25px;
+}
+.dropLink p:hover{
+    cursor: pointer;
+    border-bottom: solid 3px rgb(234, 75, 121);
+    transform: scaleX(1);
+    transition: 250ms ease-in-out;
+}
+  .dropdown {
+    position: relative;
+    display: inline-block;
+    /* width: 100%; */
+    list-style: none;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    /* width: 100%; */
+    background-color: #f9f9f9;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 12;
+  }
+  .shopCategorie {
+    margin-left: -150px;
+  }
+  
+  .brands {
+    margin-left: -300px;
+  }
+  .dropdown-content a {
+    width: 100%;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    /* font-family: "Roboto", sans-serif; */
+  }
+  
+  .dropdown-content a:hover {
+    background-color: #f1f1f1;
+    color: rgb(234, 75, 121);
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  
+  .dropdown:hover .dropbtn {
+    /* background-color: #3e8e41; */
+    border-bottom: solid 3px rgb(234, 75, 121);
+    transform: scaleX(1);
+    transition: 250ms ease-in-out;
+  }
+  
+  .products-menu-dropDown-links li {
+    /* display: inline; */
+    margin: 0px 30px 20px 0px;
+    font-size: 14px;
+    font-weight: 600;
+    width: 100px;
+    list-style: none;
+  }
+  .products-menu-dropDown-links a {
+    text-decoration: none;
+    color: black;
+  }
+  .products-menu-dropDown-links a:hover {
+    border-bottom: solid 3px rgb(234, 75, 121);
+    transform: scaleX(1);
+    transition: 250ms ease-in-out;
+  }
+  .products-menu-dropDown-links {
+    display: flex;
+    justify-content: center;
+  }
+  .brandsImages > ul {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  }
+  .brandsImages img {
+    margin: 30px;
+  }
+  .drop-down-link-container-of-products {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .drop-down-link-container-of-products-links {
+    margin: 0px 20px 20px 20px;
+  }
+  .drop-down-link-container-of-products-links p {
+    margin: 20px;
+    font-size: 13px;
+    cursor: pointer;
+  }
+  .drop-down-link-container-of-products-links p:hover {
+    border-bottom: solid 3px rgb(234, 75, 121);
+    transform: scaleX(1);
+    transition: 250ms ease-in-out;
+  }
+  .footer{
+    width: 100%;
+    border-bottom: 1px solid grey;
+    border-top: 1px solid grey;
+    margin-top: 15px;
+}
+.footer li {
+    display: inline;
+    font-size: 12px;
+    margin-right: 5px;
+}
+.footer li:hover{
+    cursor: pointer;
+}
+.copyright  div{
+   margin-right: 80px;
+   font-size: small;
+}
+.copyright{
+    margin-top: 10px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.filter{
+  width: 60%;
+  margin: auto;
+  margin-top: 25px;
+}
+.filter > div{
+  background-color: black;
+}
+.fa-opencart{
+  font-size: 14px;
+}
+.basketIcon{
+  text-decoration: none;
+  color:darkgrey;
+}
